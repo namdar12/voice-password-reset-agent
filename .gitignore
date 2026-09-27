@@ -1,0 +1,17 @@
+# Secrets & local config — never commit these
+.env
+.env.*
+!.env.example
+credentials.json
+token.pickle
+user_passwords.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+*.log

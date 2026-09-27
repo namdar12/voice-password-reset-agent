@@ -1,0 +1,27 @@
+# Core web framework
+fastapi==0.109.2
+uvicorn==0.27.1
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# Twilio telephony integration
+twilio==8.13.0
+
+# Pydantic for data validation
+pydantic==2.6.1
+
+# WebSocket support
+websockets==12.0
+boto3
+
+# Redis support
+redis==5.0.1
+hiredis==2.3.2
+
+# Email and password reset tools (if needed)
+secure-smtplib==0.1.1
+# Google API client for Gmail (if using Gmail API)
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.0
